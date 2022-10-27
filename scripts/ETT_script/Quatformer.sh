@@ -1,0 +1,96 @@
+python -u run.py \
+  --is_training 1 \
+  --root_path ./dataset/ETT-small/ \
+  --data_path ETTh1.csv \
+  --model_id ETTh1_96_720 \
+  --model Quatformer \
+  --data ETTh1 \
+  --features M \
+  --seq_len 96 \
+  --label_len 48 \
+  --pred_len 720 \
+  --e_layers 2 \
+  --d_layers 1 \
+  --enc_in 7 \
+  --dec_in 7 \
+  --c_out 7 \
+  --des 'Exp' \
+  --itr 5 \
+  --moving_avg 25 \
+  --period_type variant \
+  --n_periods 2 \
+  --order 1\
+  --gpu 0 
+
+
+python -u run.py \
+  --is_training 1 \
+  --root_path ./dataset/ETT-small/ \
+  --data_path ETTh2.csv \
+  --model_id ETTh2_96_720 \
+  --model Quatformer \
+  --data ETTh2 \
+  --features M \
+  --seq_len 96 \
+  --label_len 48 \
+  --pred_len 720 \
+  --e_layers 2 \
+  --d_layers 1 \
+  --enc_in 7 \
+  --dec_in 7 \
+  --c_out 7 \
+  --des 'Exp' \
+  --itr 5 \
+  --moving_avg 25 \
+  --period_type variant \
+  --n_periods 2 \
+  --order 1\
+  --gpu 0
+
+python -u run.py \
+  --is_training 1 \
+  --root_path ./dataset/ETT-small/ \
+  --data_path ETTm1.csv \
+  --model_id ETTm1_96_720 \
+  --model Quatformer \
+  --data ETTm1 \
+  --features M \
+  --seq_len 96 \
+  --label_len 48 \
+  --pred_len 720 \
+  --e_layers 2 \
+  --d_layers 1 \
+  --enc_in 7 \
+  --dec_in 7 \
+  --c_out 7 \
+  --des 'Exp' \
+  --itr 5 \
+  --moving_avg 25 \
+  --period_type variant \
+  --n_periods 2 \
+  --order 1\
+  --gpu 0
+
+python -u run.py \
+  --is_training 1 \
+  --root_path ./dataset/ETT-small/ \
+  --data_path ETTm2.csv \
+  --model_id ETTm2_96_720 \
+  --model Quatformer \
+  --data ETTm2 \
+  --features M \
+  --seq_len 96 \
+  --label_len 48 \
+  --pred_len 720 \
+  --e_layers 2 \
+  --d_layers 1 \
+  --enc_in 7 \
+  --dec_in 7 \
+  --c_out 7 \
+  --des 'Exp' \
+  --itr 5 \
+  --moving_avg 25 \
+  --period_type variant \
+  --n_periods 2 \
+  --order 1\
+  --gpu 0
