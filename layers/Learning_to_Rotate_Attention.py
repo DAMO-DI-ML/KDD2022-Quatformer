@@ -9,7 +9,7 @@ import math
 from math import sqrt, pi, log2
 from utils.masking import TriangularCausalMask, ProbMask
 import os
-from layers.LRformer_EncDec import TrendNorm
+from layers.Quatformer_EncDec import TrendNorm
 
 
 class QuaternionAttention(nn.Module):

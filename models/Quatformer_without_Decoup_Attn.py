@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from layers.Embed import DataEmbedding, DataEmbedding_wo_pos, TokenEmbedding
 from layers.Learning_to_Rotate_Attention import QuaternionAttention, LearningToRotateAttentionLayer
-from layers.LRformer_EncDec import Encoder, Decoder, EncoderLayer, DecoderLayer, series_decomp, TrendNorm
+from layers.Quatformer_EncDec import Encoder, Decoder, EncoderLayer, DecoderLayer, series_decomp, TrendNorm
 import math
 import numpy as np
 
